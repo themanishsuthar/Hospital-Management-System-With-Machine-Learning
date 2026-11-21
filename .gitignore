@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+.conda/
+env/
+venv/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Model files & weights
+models/*.joblib
+models/*.pkl
+models/*.h5
+models/*.keras
+*.pt
+*.pth
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large raw data copy (original CSVs are already tracked in data/)
+data/raw/
