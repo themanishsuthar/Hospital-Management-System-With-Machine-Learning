@@ -7,6 +7,7 @@ from src.models.base import ForecastModel, calculate_metrics
 from src.models.baseline_model import NaiveLagBaselineModel, MovingAverageBaselineModel
 from src.models.xgboost_model import XGBoostModel
 from src.models.prophet_model import ProphetModel
+from src.models.lstm_model import LSTMModel
 
 __all__ = [
     "ForecastModel",
@@ -15,4 +16,5 @@ __all__ = [
     "MovingAverageBaselineModel",
     "XGBoostModel",
     "ProphetModel",
+    "LSTMModel",
 ]
